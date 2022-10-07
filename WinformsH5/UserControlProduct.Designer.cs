@@ -69,12 +69,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.cbProductCount);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblProductName);
             this.Name = "UserControlProduct";
-            this.Size = new System.Drawing.Size(87, 106);
+            this.Size = new System.Drawing.Size(89, 108);
             this.ResumeLayout(false);
             this.PerformLayout();
 

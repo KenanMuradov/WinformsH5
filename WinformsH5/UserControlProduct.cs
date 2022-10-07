@@ -26,6 +26,8 @@ public partial class UserControlProduct : UserControl
         else
             cbProductCount.Text = product.Count.ToString() + " left";
         TotalPaymentChange = totalPaymentChange;
+
+        base.BackColor = Color.FromArgb(150, 187, 187);
     }
 
     private void cbProductCount_CheckedChanged(object sender, EventArgs e)

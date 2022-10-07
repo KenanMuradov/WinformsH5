@@ -60,6 +60,7 @@
             // 
             // txtUserEnteredAmount
             // 
+            this.txtUserEnteredAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUserEnteredAmount.Location = new System.Drawing.Point(3, 3);
             this.txtUserEnteredAmount.Name = "txtUserEnteredAmount";
             this.txtUserEnteredAmount.Size = new System.Drawing.Size(261, 23);
@@ -68,6 +69,7 @@
             // 
             // btn01USD
             // 
+            this.btn01USD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn01USD.Location = new System.Drawing.Point(3, 42);
             this.btn01USD.Name = "btn01USD";
             this.btn01USD.Size = new System.Drawing.Size(58, 23);
@@ -78,7 +80,8 @@
             // 
             // btn05USD
             // 
-            this.btn05USD.Location = new System.Drawing.Point(95, 42);
+            this.btn05USD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn05USD.Location = new System.Drawing.Point(99, 42);
             this.btn05USD.Name = "btn05USD";
             this.btn05USD.Size = new System.Drawing.Size(58, 23);
             this.btn05USD.TabIndex = 1;
@@ -88,6 +91,7 @@
             // 
             // btn1USD
             // 
+            this.btn1USD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1USD.Location = new System.Drawing.Point(194, 42);
             this.btn1USD.Name = "btn1USD";
             this.btn1USD.Size = new System.Drawing.Size(58, 23);
@@ -98,6 +102,7 @@
             // 
             // btn20USD
             // 
+            this.btn20USD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn20USD.Location = new System.Drawing.Point(194, 84);
             this.btn20USD.Name = "btn20USD";
             this.btn20USD.Size = new System.Drawing.Size(58, 23);
@@ -108,7 +113,8 @@
             // 
             // btn10USD
             // 
-            this.btn10USD.Location = new System.Drawing.Point(95, 84);
+            this.btn10USD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn10USD.Location = new System.Drawing.Point(99, 84);
             this.btn10USD.Name = "btn10USD";
             this.btn10USD.Size = new System.Drawing.Size(58, 23);
             this.btn10USD.TabIndex = 1;
@@ -118,6 +124,7 @@
             // 
             // btn5USD
             // 
+            this.btn5USD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn5USD.Location = new System.Drawing.Point(6, 84);
             this.btn5USD.Name = "btn5USD";
             this.btn5USD.Size = new System.Drawing.Size(58, 23);
@@ -164,9 +171,10 @@
             // 
             // btnPay
             // 
-            this.btnPay.Location = new System.Drawing.Point(95, 210);
+            this.btnPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPay.Location = new System.Drawing.Point(99, 216);
             this.btnPay.Name = "btnPay";
-            this.btnPay.Size = new System.Drawing.Size(75, 23);
+            this.btnPay.Size = new System.Drawing.Size(58, 23);
             this.btnPay.TabIndex = 3;
             this.btnPay.Text = "Pay";
             this.btnPay.UseVisualStyleBackColor = true;

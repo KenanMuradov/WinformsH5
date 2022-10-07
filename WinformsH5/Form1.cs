@@ -43,6 +43,14 @@ public partial class Form1 : Form
             panelProducts.Controls.Add(product);
         }
 
+        foreach (var btn in panelOperation.Controls.OfType<Button>())
+        {
+            btn.BackColor = Color.FromArgb(226, 177, 177);
+        }
+
+        panelOperation.BackColor = Color.FromArgb(8, 96, 95);
+
+        txtUserEnteredAmount.BackColor = Color.FromArgb(226, 177, 177);
     }
 
     private void btnUSD_Click(object sender, EventArgs e)
